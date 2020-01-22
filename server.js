@@ -25,8 +25,6 @@ app.get("/api/hello", function (req, res) {
 });
 
 
-//{"ipaddress":"183.83.170.121","language":"en-GB,en-US;q=0.9,en;q=0.8",
-//"software":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36"}
 
 app.get('/api/whoami', function(req, res){
   
